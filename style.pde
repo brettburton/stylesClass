@@ -82,6 +82,29 @@ Style() {
 }
 
 //--------------------------------
+void scheme(int sch_) {
+  
+  if (sch_ == 1){
+  c1 = color(79,87,170);
+  c2 = color(143,0,46); 
+  c3 = color(69,72,87);
+  c4 = color(190,226,231);
+  c5 = color(116,105,255);
+  c6 = color(255,235,135);
+  }
+  
+  if (sch_ == 2){
+  c1 = color(75,146,253);
+  c2 = color(255,184,73); 
+  c3 = color(242,48,162);
+  c4 = color(199 ,247,22);
+  c5 = color(255,20,14);
+  c6 = color(14,93,216);
+  }
+  
+}
+
+//--------------------------------
 void showGrid(){
   
   if (gridOn){
@@ -131,6 +154,7 @@ void showGrid(){
   }
 }
 
+//--------------------------------
 void toggleGrid(){
   
       if (keyPressed) {
@@ -140,7 +164,6 @@ void toggleGrid(){
     }
     else gridOn = false;
     
- 
 }
 
   
